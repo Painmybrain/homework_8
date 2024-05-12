@@ -1,0 +1,51 @@
+.header-bg {
+  border-radius: 10px 10px 0 0;
+  background-color: rgb(111, 117, 156);
+}
+
+.navbar-color {
+  color: azure;
+}
+
+.nav-link.active {
+  color: azure;
+}
+
+.main-container {
+  margin: 0 10%;
+}
+
+.card-section {
+  margin-top: 20px;
+  align-items: stretch;
+}
+
+.card-img {
+  
+  max-height: 240px;
+}
+
+.card-img-top {
+  height: 100%;
+}
+
+.card-center {
+  text-align: center;
+}
+
+.footer {
+  margin-top: 20px;   
+  border-radius: 0 0 10px 10px;
+  background-color: rgb(111, 117, 156);
+}
+
+.footer-add {
+  height: 10vh;
+  padding-bottom: 15px; 
+  align-content: end;
+}
+
+.footer-text {
+  text-align: center;
+  color: azure;
+}

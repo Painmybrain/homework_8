@@ -1,0 +1,124 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+.body__container {
+  display: flex;
+  flex-direction: column;
+  max-width: 1440px;
+  margin: 0 auto;   
+}
+
+.body__container_background {
+  background: url(../img/main-bg.png) no-repeat;
+  background-position: right center;  
+  background-clip: content-box;
+}
+
+.header__top {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 4vh;  
+  font-family: "Roboto Slab", serif;  
+  font-weight: 400;
+  font-style: normal;
+  font-size: 16px;
+  color: rgb(79, 82, 87);
+  background: url(../img/header-bg.png);
+  border-bottom: 1.2px solid #afb4b8e3;
+}
+
+.header__bottom {
+  display: flex;
+  justify-content: space-between;
+  margin: 50px 75px 0 75px;
+}
+
+.header__bottom_btn-text {
+  padding: 9px 20px;
+  background-color: rgba(82, 34, 208, 1);    
+  font-family: "Signika", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 13px;
+  color: white;
+  text-transform: uppercase;
+  border-radius: 20px;
+  border-color: transparent;
+  cursor: pointer;
+}
+
+.main__container {
+  display: flex;  
+  margin: 76px 0 146px 120px;
+}
+
+.main-text {
+  display: flex;
+  flex-direction: column;
+  max-width: 490px;
+}
+
+.main-text__header {
+  margin: 0;
+  font-family: "Signika", sans-serif;
+  font-weight: bold;
+  font-style: normal;
+  font-size: 60px;
+  text-transform: uppercase;
+}
+
+.main-text__content {
+  padding-top: 10px;
+  font-family: "Roboto Slab", serif;  
+  font-weight: 300;
+  font-style: normal;
+  font-size: 20px;
+  line-height: 160%;
+}
+
+.main-text__btn {
+  width: 270px;
+  margin-top: 30px;
+  padding: 18px 33px;
+  background-color: rgba(82, 34, 208, 1);    
+  font-family: "Signika", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 35px;
+  color: white;
+  text-transform: uppercase;
+  border-radius: 45px;
+  border-color: transparent;
+  cursor: pointer;
+}
+
+.footer__container {
+  display: flex;
+  margin-left: 120px;
+}
+
+.footer__nav {
+  display: flex;
+  width: 542px;
+  justify-content: space-between;
+  list-style: none;
+}
+
+.footer__nav_item {
+  font-family: "Roboto Slab", serif;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 20px; 
+}
+
+.footer__nav_link {
+  color: rgba(82, 34, 208, 1);
+}
